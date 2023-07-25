@@ -1,5 +1,5 @@
 ---
-title: "AIDs Drug"
+title: "AIDS Drug"
 author: "Ashley Davis"
 date: "Summer 2023"
 output: html_document
@@ -8,6 +8,7 @@ output: html_document
 ```{r include=FALSE,echo=FALSE}
 require(tidyverse)
 require(tigerstats)
+require(dplyr)
 triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
 ```
 
@@ -27,15 +28,28 @@ Data for this study came from a clinical trial for the drug triUmpsal
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example sub-setting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
+I will be using a model that uses the variable analysis of categorical ~ categorical. Why??????
+
+The data contains information on men, women, illicit drug users, and members of the LGBTQ community. Since the question is about illicit drug users, we have to subset the data to include only "druggies"
+
+Graphical display: bar chart; Numerical display: Cross table; and the Inferential display: chi squared table
+
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
+
+```{r}
+DruggieData = filter(triUmp, DrugUser =="yes")
+```
+
 
 ## Descriptive Results
 
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
+
+
 
 ### Numerical Descriptive Results
 
