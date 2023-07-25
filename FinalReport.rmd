@@ -90,4 +90,4 @@ The Fisher's Exact test demonstrates that the odds ratio estimates to 0.35%.
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-By analyzing the data and computing the Chi Squared test to get the p-value, the null hypothesis must be rejected, proving that the vaccine does prevent the contraction of AIDS. The data shows a .35% higher likelihood of contracting AIDS in those who received the placebo than those who received the actual vaccination.
+By analyzing the data and computing the Chi Squared test to get the p-value, the null hypothesis must be rejected, proving that the vaccine does prevent the contraction of AIDS in drug users. The data shows a .35% higher likelihood of contracting AIDS in the drug users who received the placebo than the drug users who received the actual vaccination.
