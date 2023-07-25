@@ -28,7 +28,7 @@ Data for this study came from a clinical trial for the drug triUmpsal
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example sub-setting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
-I will be using a model that uses the variable analysis of categorical ~ categorical. Why??????
+I will be using a model that uses the variable analysis of categorical ~ categorical.
 
 The data contains information on men, women, illicit drug users, and members of the LGBTQ community. Since the question is about illicit drug users, we have to subset the data to include only "druggies"
 
@@ -82,6 +82,12 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
+Chi Squared: The p-value is 1.242e-07 therefore disproving the null hypothesis and proving the relationship between the vaccine and decreasing the likelihood of contracting the virus.
+
+The Fisher's Exact test demonstrates that the odds ratio estimates to 0.35%.
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+By analyzing the data and computing the Chi Squared test to get the p-value, the null hypothesis must be rejected, proving that the vaccine does prevent the contraction of AIDS. The data shows a .35% higher likelihood of contracting AIDS in those who received the placebo than those who received the actual vaccination.
